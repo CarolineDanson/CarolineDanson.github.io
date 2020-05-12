@@ -14,9 +14,7 @@ class Footer extends Component {
 
      <div className="row">
         <div className="twelve columns">
-           <ul className="social-links">
-              {networks}
-           </ul>
+           
 
            <ul className="copyright">
               <li>&copy; Copyright 2017 Tim Baker</li>

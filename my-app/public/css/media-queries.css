@@ -50,8 +50,8 @@
    /* About Section
    ------------------------------------------------------------------- */
    #about .profile-pic {
-      width: 114px;
-      height: 114px;
+      width: 120px;
+      height: 160px;
       margin-left: 12px;
    }
    #about .contact-details { width: 50%; }
@@ -191,7 +191,7 @@
       padding-bottom: 12px;
       padding-top: 6px;
    }
-   header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
+   header .banner-text h1 { font: 45px/1.1em 'opensans-bold', sans-serif !important}
    header .banner-text h3 {
       font: 16px/1.9em 'librebaskerville-regular', serif;
       width: 85%;
@@ -215,7 +215,11 @@
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
+   #about .profile-pic { 
+      /*display: none;*/ 
+      width: 85px;
+      height: 110px;
+   }
    #about .download .button {
       width: 100%;
       text-align: center;
