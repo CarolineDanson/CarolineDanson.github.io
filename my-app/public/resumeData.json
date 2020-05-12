@@ -1,8 +1,8 @@
 {
   "main": {
-    "name":"Tim Baker",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "name":"Caroline Danson",
+    "occupation":"junior full-stack developer",
+    "description":"After quite a few years in social work I changed my carrier path to work with my passion - IT. I have mainly worked with Java, ReactJs, Javascript and Flutter",
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
@@ -10,7 +10,7 @@
     "phone": "555-555-5555",
     "address":{
       "street":"(Your Street)",
-      "city":"(Your City)",
+      "city":"Stockholm",
       "state":"(Your State)",
       "zip": "(Your Zip/Postal Code)"
     },
