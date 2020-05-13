@@ -4,15 +4,14 @@
     "occupation":"junior full-stack developer",
     "description":"After quite a few years in social work I changed my carrier path to work with my passion - IT. I have mainly worked with Java, ReactJs, Javascript and Flutter",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "bio":"So who am I? I’m a calm, positive and curious person originating from the north of Sweden. I love to take on new challenges and learn new things! I have for several years worked as a social worker but have now re-educated myself to be able to work within the IT-industry. I have experience both with backend development in Java and frontend development in Javascript, ReactJs, CSS, HTML and Flutter. I’m a certified Scrum Master(PSM I). I enjoy solving complex problems and working in teams, whilst having fun along the way.",
+    "contactmessage":"I would love to hear from you! If you wish to get in touch please fill in your details below and I'll get back in touch as soon as possible.",
+    "email": "carro.danson@gmail.com",
+    "phone": "070-607 92 92",
     "address":{
-      "street":"(Your Street)",
-      "city":"Stockholm",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"Klädesvägen 38",
+      "zip": "168 76",
+      "city":"Stockholm"
     },
     "website": "https://carolinedanson.github.io",
     "resumedownload":"",
@@ -30,43 +29,43 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Technology skills",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
+        "school":"Academy, a part of Academic Work AB",
+        "degree":"Accelerated learning - Java developer",
+        "graduated":"2020",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
+        "school":"Lund University",
+        "degree":"BSc in Social work",
+        "graduated":"2011-2015",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
+        "company":"Academic work",
+        "title":"IT-consultant",
+        "years":"2020",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
+        "company":"Social services in various councils",
+        "title":"Investigative social worker, counsellor, Social work consultant",
+        "years":"2015 - 2020",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
     ],
     "skills":[
       {
-        "name":"Git",
-        "level":"60%"
+        "name":"Java",
+        "level":"80%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"Javascript",
+        "level":"50%"
       },
       {
         "name":"ReactJs",
@@ -74,19 +73,19 @@
       },
       {
         "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
-        "level":"80%"
-      },
-      {
-        "name":"VueJs",
         "level":"50%"
       },
       {
-        "name":"MongoDB",
-        "level":"80%"
+        "name":"HTML5",
+        "level":"60%"
+      },
+      {
+        "name":"Flutter",
+        "level":"65%"
+      },
+      {
+        "name":"Git",
+        "level":"69%"
       }
     ]
   },
