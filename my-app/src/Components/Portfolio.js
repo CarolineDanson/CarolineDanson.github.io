@@ -4,39 +4,42 @@ class Portfolio extends Component {
   render() {
 
     if(this.props.data){
-      var projects = this.props.data.projects.map(function(projects){
-        var projectImage = 'images/portfolio/'+projects.image;
-        return <div key={projects.title} className="columns portfolio-item">
-           <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
-               <img alt={projects.title} src={projectImage} />
-               <div className="overlay">
-                  <div className="portfolio-item-meta">
-                 <h5>{projects.title}</h5>
-                     <p>{projects.category}</p>
-                  </div>
-                </div>
-              <div className="link-icon"><i className="fa fa-link"></i></div>
-            </a>
-          </div>
-        </div>
+      var testimonials = this.props.data.testimonials.map(function(testimonials){
+        return  <li key={testimonials.user}>
+            <blockquote>
+               <p>{testimonials.text}</p>
+               <cite>{testimonials.user}</cite>
+            </blockquote>
+         </li>
       })
     }
 
     return (
-      <section id="portfolio">
-
-      <div className="row">
-
-         <div className="twelve columns collapsed">
-
-            <h1>Current projects and previous work. Check it out.</h1>
-
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                {projects}
+      <section id="testimonials">
+      <div className="text-container">
+         <div className="row">
+         <div className="background-box">
+            <h1>Current and previous projects</h1>
+            <div>
+               <h5>ParkHere</h5>
+               <p>About ParkHere</p>
             </div>
-          </div>
-      </div>
+            <div>
+               <h5>Eat Well - Java + Flutter</h5>
+               <p>About Eat well</p>
+            </div>
+            <div>
+               <h5>Flutter apps</h5>
+               <p>About apps</p>
+            </div>
+            <div>
+               <h5>Lanterna game - Java</h5>
+               <p>About game</p>
+            </div>
+         </div>
+
+         </div>
+         </div>
    </section>
     );
   }
