@@ -35,13 +35,19 @@
         "school":"Academy, a part of Academic Work AB",
         "degree":"Accelerated learning - Java developer",
         "graduated":"2020",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"I have completed Academy’s Accelerated Learning Program in Java. Accelerated Learning is a fast way to a new career for ambitious and driven individuals with the right skills to acquire new knowledge. The education method focuses on high-speed practical learning, agile teamwork and continuous feedback dialogue. The education includes around 500 hours of coding and is always based on specific tasks relevant to the professional role. This makes the learning process extremely efficient and therefore I can contribute as junior developer from the first day after training. During the education the focus was mainly Java, but also technologies such as object oriented programming, Spring Framework, SQL Databases, HTML, CSS, Javascript, React, Scrum, Git, UX, TDD and intro to AWS."
       },
       {
         "school":"Lund University",
         "degree":"BSc in Social work",
         "graduated":"2011-2015",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"During my bachelor of science in social work I have studied subjects such as sociology, psychology, social policies and law. I have also been educated in ways to cooperate in teams and the ability to reflect in a systematic way. My bachelor thesis was based in England. The thesis focused on the use of modern technology when working with people with dementia."
+      },
+      {
+        "school":"Udemy",
+        "degree":"Complete Flutter App Development Bootcamp with Dart",
+        "graduated":"2020",
+        "description":"This course was officially created in collaboration with the Google Flutter team. During the course I learnt to code using Dart and build beautiful, fast, native-quality iOS and Android apps. Furthermore I build around 15 apps during the course."
       }
     ],
     "work":[
