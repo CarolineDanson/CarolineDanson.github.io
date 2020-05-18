@@ -21,12 +21,16 @@ class Contact extends Component {
                     action="https://formspree.io/mbjzlepr"
                     method="POST"
                 >
-
+                    <h1>Contact</h1>
+                    <br></br>
+                    <p>Please fill in your details and I will get back to you as soon as possible.</p>
+                    <label>Name:</label>
+                    <input type="text" name="name" required/>
                     <label>Email:</label>
-                    <input type="email" name="email" />
+                    <input type="email" name="email" required/>
                     <label>Message:</label>
-                    <input type="text" name="message" />
-                    {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+                    <textarea type="text" name="message"cols="30" rows="8" required></textarea>
+                    {status === "SUCCESS" ? <p><strong>Thanks for contacting me!</strong></p> : <button className="button">Send message</button>}
                     {status === "ERROR" && <p>Ooops! There was an error. Try again!</p>}
                 </form>
             </section >

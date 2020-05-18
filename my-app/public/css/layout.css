@@ -249,7 +249,7 @@ ul#nav li.current a { color: #F06000; }
 #resume {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
+   padding-bottom: 10px;
    overflow: hidden;
 }
 
@@ -310,7 +310,7 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
-  	height: 42px;
+  	height: 25px;
   	border-radius: 3px;
 }
 .bars li em {
@@ -331,7 +331,7 @@ ul#nav li.current a { color: #F06000; }
    padding-right: 24px;
   	background: rgba(36, 63, 51);
    display: inline-block;
-  	height: 42px;
+  	height: 25px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
@@ -845,9 +845,12 @@ call-to-action .button {
 
 #contact {
    background: rgba(36, 63, 51);
-   padding-top: 96px;
-   padding-bottom: 102px;
+   padding-top: 10%;
+   padding-bottom: 10%;
+   padding-left: 10%;
+   padding-right: 8%;
    color: #fff;
+   display: block;
 }
 #contact .section-head { margin-bottom: 42px; }
 
@@ -866,10 +869,10 @@ call-to-action .button {
    font-family: 'FontAwesome';
    content: "\f0e0";
 	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
+	font-size: 40px;
+   line-height: 40px;
    text-align: left;
-   float: left;
+   
    color: #ebeeee;
 }
 
@@ -886,13 +889,16 @@ call-to-action .button {
 
 
 /* contact form */
-#contact form { margin-bottom: 30px; }
+#contact form {
+   width: 100% !important;
+   height: auto;
+}
+
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
    color: #EBEEEE;
 	display: inline-block;
-	float: left;
    width: 26%;
 }
 #contact input,
@@ -901,12 +907,12 @@ call-to-action .button {
    padding: 18px 20px;
 	color: #eee;
 	background: rgb(71, 124, 100);
-	margin-bottom: 42px;
+	margin-bottom: 30px;
 	border: 0;
 	outline: none;
    font-size: 15px;
    line-height: 24px;
-   width: 65%;
+   width: 95%;
 }
 #contact input:focus,
 #contact textarea:focus,
@@ -954,6 +960,20 @@ call-to-action .button {
    position: relative;
    left: 18px;
    top: 17px;
+}
+
+#contact .button {
+   margin-top: 6px;
+   background: #fff;
+   color: rgba(36, 63, 51);
+}
+#contact .button:hover {
+   background: rgba(36, 63, 51);
+   color: #fff;
+}
+#contact .button i {
+   margin-right: 15px;
+   font-size: 20px;
 }
 
 /* ------------------------------------------------------------------ */

@@ -4,8 +4,8 @@
     "occupation":"junior full-stack developer",
     "description":"After quite a few years in social work I changed my carrier path to work with my passion - IT. I have mainly worked with Java, ReactJs, Javascript and Flutter",
     "image":"profilepic.jpg",
-    "bio":"So who am I? I’m a calm, positive and curious person originating from the north of Sweden. I love to take on new challenges and learn new things! I have for several years worked as a social worker but have now re-educated myself to be able to work within the IT-industry. I have experience both with backend development in Java and frontend development in Javascript, ReactJs, CSS, HTML and Flutter. I’m a certified Scrum Master(PSM I). I enjoy solving complex problems and working in teams, whilst having fun along the way.",
-    "contactmessage":"I would love to hear from you! If you wish to get in touch please fill in your details below and I'll get back in touch as soon as possible.",
+    "bio":"So who am I? I’m a positive, analytical and curious person originating from the north of Sweden. I love to take on new challenges and learn new things! I have for several years worked as a social worker but have now re-educated myself to be able to work within the IT-industry. I have experience both with backend development in Java and frontend development in Javascript, ReactJs, CSS, HTML and Flutter. I’m a certified Scrum Master(PSM I). I enjoy solving complex problems, and working in teams, whilst having fun along the way. Scroll down to see more about me and things I'm working on or have worked with!",
+    "contactmessage":"I would love to hear from you! Maybe you have an exciting project, a job opportunity or a role where we could be colleagues? If you wish to get in touch, you can contact me",
     "email": "carro.danson@gmail.com",
     "phone": "070-607 92 92",
     "address":{
@@ -14,7 +14,6 @@
       "city":"Stockholm"
     },
     "website": "https://carolinedanson.github.io",
-    "resumedownload":"",
     "social":[
       {
         "name":"linkedin",
@@ -29,7 +28,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Technology skills",
+    "skillmessage":"An overview of my technology skills.",
     "education":[
       {
         "school":"Academy, a part of Academic Work AB",
@@ -55,19 +54,23 @@
         "company":"Academic work",
         "title":"IT-consultant",
         "years":"2020",
-        "description":"After finished education in Java at Academy I started to work as an IT-consultant at Academic Work."
+        "description":"After finished education in Java at Academy I started to work as an IT-consultant at Academic Work. Unfortunately due to Covid-19, they were not able to place me at a client."
       },
       {
-        "company":"Social services in various councils",
+        "company":"Various roles within social work",
         "title":"Investigative social worker, counsellor, Social work consultant",
         "years":"2015 - 2020",
-        "description":"More information coming soon."
+        "description":"After graduating from Lund University in 2011, I have worked at several different councils as a social worker and have gained many years of experience within the public sector. I have had various roles such as investigator at the social services, as a social work counsultant and school counsellor. Within my different roles as a social worker I have developed the ability to solve complex problems, be problem-solving oriented, have the skills needed to analyse big amounts of data. I have learnt the importance of being flexible, cooperative and enterprising in various contexts."
       }
     ],
     "skills":[
       {
         "name":"Java",
         "level":"80%"
+      },
+      {
+        "name":"Spring Framework",
+        "level":"70%"
       },
       {
         "name":"Javascript",
@@ -83,7 +86,7 @@
       },
       {
         "name":"HTML5",
-        "level":"60%"
+        "level":"70%"
       },
       {
         "name":"Flutter",
@@ -92,6 +95,14 @@
       {
         "name":"Git",
         "level":"69%"
+      },
+      {
+        "name":"Bootstrap",
+        "level":"60%"
+      },
+      {
+        "name":"Scrum",
+        "level":"66%"
       }
     ]
   },
