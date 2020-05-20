@@ -2,9 +2,9 @@
   "main": {
     "name":"Caroline Danson",
     "occupation":"junior full-stack developer",
-    "description":"After quite a few years in social work I changed my carrier path to work with my passion - IT. I have mainly worked with Java, ReactJs, Javascript and Flutter",
+    "description":"After quite a few years in social work I changed my career path to work with my passion - IT. I have mainly worked with Java, ReactJs, Javascript and Flutter",
     "image":"profilepic.jpg",
-    "bio":"So who am I? I’m a positive, analytical and curious person originating from the north of Sweden. I love to take on new challenges and learn new things! I have for several years worked as a social worker but have now re-educated myself to be able to work within the IT-industry. I have experience both with backend development in Java and frontend development in Javascript, ReactJs, CSS, HTML and Flutter. I’m a certified Scrum Master(PSM I). I enjoy solving complex problems, and working in teams, whilst having fun along the way. Scroll down to see more about me and things I'm working on or have worked with!",
+    "bio":"I’m a positive, analytical and curious person originating from the north of Sweden. I love to take on new challenges and learn new things! I have for several years worked as a social worker but have now re-educated myself to be able to work within the IT-industry. I have experience both with backend development in Java and frontend development in Javascript, ReactJs, CSS, HTML and Flutter. I’m a certified Scrum Master (PSM I). I enjoy solving complex problems, and working in teams, whilst having fun along the way. Scroll down to see more about me and things I'm working on or have worked with!",
     "contactmessage":"I would love to hear from you! Maybe you have an exciting project, a job opportunity or a role where we could be colleagues? If you wish to get in touch, you can contact me",
     "email": "carro.danson@gmail.com",
     "phone": "070-607 92 92",
@@ -28,13 +28,13 @@
     ]
   },
   "resume":{
-    "skillmessage":"An overview of my technology skills.",
+    "skillmessage":"An overview of my technology skills:",
     "education":[
       {
         "school":"Academy, a part of Academic Work AB",
         "degree":"Accelerated learning - Java developer",
         "graduated":"2020",
-        "description":"I have completed Academy’s Accelerated Learning Program in Java. Accelerated Learning is a fast way to a new career for ambitious and driven individuals with the right skills to acquire new knowledge. The education method focuses on high-speed practical learning, agile teamwork and continuous feedback dialogue. The education includes around 500 hours of coding and is always based on specific tasks relevant to the professional role. This makes the learning process extremely efficient and therefore I can contribute as junior developer from the first day after training. During the education the focus was mainly Java, but also technologies such as object oriented programming, Spring Framework, SQL Databases, HTML, CSS, Javascript, React, Scrum, Git, UX, TDD and intro to AWS."
+        "description":"I have completed Academy’s Accelerated Learning Program in Java. Accelerated Learning is a fast way to a new career for ambitious and driven individuals with the right skills to acquire new knowledge. The education method focuses on high-speed practical learning, agile teamwork and continuous feedback dialogue. The education includes around 500 hours of coding and is always based on specific tasks relevant to the professional role. This makes the learning process extremely efficient and therefore I can contribute as junior developer from the first day after training. During the education the focus was mainly Java, but also technologies such as object oriented programming, Spring Framework, SQL Databases, HTML, CSS, Javascript, ReactJs, Scrum, Git, UX, TDD and intro to AWS."
       },
       {
         "school":"Lund University",
@@ -54,13 +54,13 @@
         "company":"Academic work",
         "title":"IT-consultant",
         "years":"2020",
-        "description":"After finished education in Java at Academy I started to work as an IT-consultant at Academic Work. Unfortunately due to Covid-19, they were not able to place me at a client."
+        "description":"After completing training in Java at Academy I started to work as an IT-consultant at Academic Work. Unfortunately due to Covid-19, they were not able to retain me as an employee."
       },
       {
         "company":"Various roles within social work",
         "title":"Investigative social worker, counsellor, Social work consultant",
         "years":"2015 - 2020",
-        "description":"After graduating from Lund University in 2011, I have worked at several different councils as a social worker and have gained many years of experience within the public sector. I have had various roles such as investigator at the social services, as a social work counsultant and school counsellor. Within my different roles as a social worker I have developed the ability to solve complex problems, be problem-solving oriented, have the skills needed to analyse big amounts of data. I have learnt the importance of being flexible, cooperative and enterprising in various contexts."
+        "description":"After graduating from Lund University in 2011, I have worked at several different councils as a social worker and have gained many years of experience within the public sector. I have had various roles such as investigator at the social services, as a social work consultant and school counsellor. Within my different roles as a social worker I have developed the ability to solve complex problems, be problem-solving oriented, have the skills needed to analyse big amounts of data. I have learnt the importance of being flexible, cooperative and enterprising in various contexts."
       }
     ],
     "skills":[
