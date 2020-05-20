@@ -1,37 +1,135 @@
 import React, { Component } from 'react';
 
 class Portfolio extends Component {
-  render() {
+   render() {
 
-    return (
-      <section id="testimonials">
-      <div className="text-container">
-         <div className="row">
-         <div className="background-box">
-            <h1>Current and previous projects</h1>
-            <div>
-               <h5>ParkHere</h5>
-               <p>About ParkHere</p>
+      return (
+         <section id="testimonials">
+            <div className="text-container">
+               <div className="row">
+                  <div className="background-box">
+                     <h1>Current and previous projects</h1>
+                     {/*PARKHERE*/}
+                     <span className="grid-container-first">
+                        <span></span>
+                        <span>
+                        <h5>ParkHere</h5>
+                        <span className="text-style">The ParkHere web app was created by the ParkHere team that I was a part of during my final exam project at my Java developer studies at Academy. The aim with the app was to help customers park correctly, because haven't we all struggled with what the parking signs actually mean? The app has an backend in Java and frontend in ReactJS. Press the images below to see more and the code! </span>
+                        </span>
+                        <span></span>
+                     </span>
+                     <div className="grid-container">
+                        <div></div>
+                        <div>
+                           <section id="portfoilo">
+                           <a target="_blank" rel="noopener noreferrer" href="https://github.com/CarolineDanson/ParkhereBackend">
+                                    <div className="columns portfolio-item">
+                                       <div className="item-wrap">
+                                          <img className="img-size" alt="ParkHere" src="images/portfolio/ParkHereJava.png"></img>
+                                          <div className="overlay">
+                                             <div className="portfolio-item-meta"><h5>ParkHere</h5>
+                                                <p>Github Backend</p></div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </a>
+                           </section>
+                           </div>
+                        <div>
+                        <section id="portfoilo">
+                           <a target="_blank" rel="noopener noreferrer" href="https://github.com/CarolineDanson/ParkhereFrontend">
+                                    <div className="columns portfolio-item">
+                                       <div className="item-wrap">
+                                          <img className="img-size" alt="ParkHere" src="images/portfolio/FrontEnd.png"></img>
+                                          <div className="overlay">
+                                             <div className="portfolio-item-meta"><h5>ParkHere</h5>
+                                                <p>Github Frontend</p></div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </a>
+                                 </section>
+                                 </div>
+                        <div></div>
+                     </div>
+                     {/*EAT WELL*/}
+                     <span className="grid-container-first">
+                        <span></span>
+                        <span>
+                        <h5>Eat well</h5>
+                        <span className="text-style">Eat well is a Flutter app with a backend in Java. This is an ongoing project where I have created an app where you can save your favourite recipes so that when it is time for some dinner you can get some food suggestions! In Java I have used Spring Framework to build an REST API and used JPA to connect to a database to save all the recipes. The fronend part with Flutter is still in the early stages. Press the image to see more and the code!</span>
+                        </span>
+                        <span></span>
+                     </span>
+                     <div className="grid-container">
+                        <div></div>
+                        <div>
+                           <section id="portfoilo">
+                           <a target="_blank" rel="noopener noreferrer" href="https://github.com/CarolineDanson/EatWellBackend">
+                                    <div className="columns portfolio-item">
+                                       <div className="item-wrap">
+                                          <img className="img-size" alt="ParkHere" src="images/portfolio/EatwellBackend.png"></img>
+                                          <div className="overlay">
+                                             <div className="portfolio-item-meta"><h5>Eat well</h5>
+                                                <p>Github Backend</p></div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </a>
+                           </section>
+                           </div>
+                        <div>
+                        <section id="portfoilo">
+                           <a target="_blank" rel="noopener noreferrer" href="https://github.com/CarolineDanson/EatWellFrontend">
+                                    <div className="columns portfolio-item">
+                                       <div className="item-wrap">
+                                          <img className="img-size" alt="ParkHere" src="images/portfolio/EatWellFrontend.png"></img>
+                                          <div className="overlay">
+                                             <div className="portfolio-item-meta"><h5>Eat Well</h5>
+                                                <p>Github Frontend</p></div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </a>
+                                 </section>
+                                 </div>
+                        <div></div>
+                     </div>
+                     {/*FLUTTER APPS*/}
+                     <span className="grid-container-first">
+                        <span></span>
+                        <span>
+                        <h5>Flutter apps</h5>
+                        <span className="text-style">During my free time I have learned Flutter. I took an online course created in collaboration with the Flutter Team at Google and after that I have made several apps. If you wish to see more about this please visit my GitHub by pressing the image below.</span>
+                        </span>
+                        <span></span>
+                     </span>
+                     <div className="grid-container-one">
+                        <div></div>
+                        <div>
+                           <section id="portfoilo">
+                           <a target="_blank" rel="noopener noreferrer" href="https://github.com/CarolineDanson/FlutterApps">
+                                    <div className="columns portfolio-item">
+                                       <div className="item-wrap">
+                                          <img className="img-size" alt="ParkHere" src="images/portfolio/FlutterImg.png"></img>
+                                          <div className="overlay">
+                                             <div className="portfolio-item-meta"><h5>Flutter apps</h5>
+                                                <p>Flutter apps using Dart</p></div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </a>
+                           </section>
+                           </div>
+                        <div></div>
+                        <div></div>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <div>
-               <h5>Eat Well - Java + Flutter</h5>
-               <p>About Eat well</p>
-            </div>
-            <div>
-               <h5>Flutter apps</h5>
-               <p>About apps</p>
-            </div>
-            <div>
-               <h5>Lanterna game - Java</h5>
-               <p>About game</p>
-            </div>
-         </div>
-
-         </div>
-         </div>
-   </section>
-    );
-  }
+         </section>
+      );
+   }
 }
 
 export default Portfolio;

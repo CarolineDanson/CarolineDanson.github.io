@@ -207,7 +207,7 @@ ul#nav li.current a { color: #F06000; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: rgb(163, 241, 205);
+   color: rgb(240, 152, 94);
    margin-bottom: 12px;
 }
 #about p {
@@ -428,9 +428,9 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: rgba(36, 63, 51);
-   padding-top: 90px;
+   padding-top: 30px;
    padding-bottom: 60px;
+   width: 100%;
 }
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
@@ -442,7 +442,9 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 36px; }
+#portfolio-wrapper .columns { 
+   width: 100%;
+   margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: rgba(36, 63, 51);
    overflow: hidden;
@@ -458,6 +460,8 @@ ul#nav li.current a { color: #F06000; }
    display: block;
    cursor: pointer;
 }
+
+
 
 /* overlay */
 .portfolio-item .item-wrap .overlay {
@@ -689,9 +693,13 @@ call-to-action .button {
    color: #fff;
 }
 
+
 /* Testimonials Section
    ----------------------------------------------------------------------- */
-   #testimonials .text-container { text-align: center; }
+   #testimonials .text-container { 
+      text-align: center; 
+      width: 100%;
+   }
    #testimonials h1 {
       font: 16px/24px 'opensans-bold', sans-serif;
       text-align: center;
@@ -699,7 +707,7 @@ call-to-action .button {
       text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
    }
    #testimonials h1 span { display: block; }
-   #testimonials blockquote { padding-bottom: 24px; }
+   #testimonials blockquote { padding-bottom: 0px; }
    #testimonials blockquote p {
       font-size: 20px;
       line-height: 42px;      
@@ -713,6 +721,49 @@ call-to-action .button {
    #testimonials p {
       color: #fff;
    }
+   
+   #testimonials .text-style {
+      color: #fff;
+   }
+
+   #testimonials .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-gap: 5px;
+      align-content: center;
+      padding: 5px;
+    }
+
+    #testimonials .grid-container-one {
+      display: grid;
+      grid-template-columns: 250px auto 250px;
+      grid-gap: 5px;
+      align-content: center;
+      padding: 5px;
+    }
+
+    #testimonials .grid-container-first {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-gap: 5px;
+      align-content: center;
+      padding: 5px;
+    }
+    
+    #testimonials .grid-container > div {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    #testimonials .grid-container-one > div {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    #testimonials .grid-container-first > div {
+      text-align: center;
+      padding: 5px 0;
+    }
 
    /* Control Nav */
    .flex-control-nav {
@@ -730,7 +781,7 @@ call-to-action .button {
 
 /*	Blockquotes */
 #testimonials blockquote {
-   margin: 0 0px 30px 0px;
+   margin: 0 0px 0px 0px;
    padding-left: 0;
    position: relative;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
@@ -738,7 +789,6 @@ call-to-action .button {
 #testimonials blockquote:before { content: none; }
 #testimonials blockquote p {
    font-family: 'librebaskerville-italic', serif;
-   padding: 0;
    font-size: 24px;
    line-height: 48px;
    color: #fff
