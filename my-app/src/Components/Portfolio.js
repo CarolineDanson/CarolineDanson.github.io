@@ -14,7 +14,7 @@ class Portfolio extends Component {
                         <span></span>
                         <span>
                         <h5>ParkHere</h5>
-                        <span className="text-style">The ParkHere web app was created by the ParkHere team that I was a part of during my final exam project at my Java developer studies at Academy. The aim with the app was to help customers park correctly, because haven't we all struggled with what the parking signs actually mean? The app has an backend in Java and frontend in ReactJS. Press the images below to see more and the code! </span>
+                        <span className="text-style">The ParkHere web app was created by the ParkHere team that I was a part of during my final exam project at my Java developer studies at Academy. The aim with the app was to help customers park correctly, because haven't we all struggled with what the parking signs actually mean? The app has an backend in Java and frontend in ReactJs. Click the images below to see more and the code! </span>
                         </span>
                         <span></span>
                      </span>
@@ -57,7 +57,7 @@ class Portfolio extends Component {
                         <span></span>
                         <span>
                         <h5>Eat well</h5>
-                        <span className="text-style">Eat well is a Flutter app with a backend in Java. This is an ongoing project where I have created an app where you can save your favourite recipes so that when it is time for some dinner you can get some food suggestions! In Java I have used Spring Framework to build an REST API and used JPA to connect to a database to save all the recipes. The fronend part with Flutter is still in the early stages. Press the image to see more and the code!</span>
+                        <span className="text-style">Eat well is a Flutter app with a backend in Java. This is an ongoing project where I have created an app where you can save your favourite recipes so that when it is time for some dinner you can get some food suggestions! In Java I have used Spring Framework to build an REST API and used JPA to connect to a database to save all the recipes. The fronend part with Flutter is still in the early stages. Click the image to see more and the code!</span>
                         </span>
                         <span></span>
                      </span>
@@ -100,7 +100,7 @@ class Portfolio extends Component {
                         <span></span>
                         <span>
                         <h5>Flutter apps</h5>
-                        <span className="text-style">During my free time I have learned Flutter. I took an online course created in collaboration with the Flutter Team at Google and after that I have made several apps. If you wish to see more about this please visit my GitHub by pressing the image below.</span>
+                        <span className="text-style">During my free time I have learned Flutter. I took an online course created in collaboration with the Flutter Team at Google and after that I have made several apps. If you wish to see more about this please visit my GitHub by clicking the image below.</span>
                         </span>
                         <span></span>
                      </span>
