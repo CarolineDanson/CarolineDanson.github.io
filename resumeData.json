@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Caroline Danson",
-    "occupation":"junior full-stack developer",
+    "occupation":"full-stack developer",
     "description":"After quite a few years in social work I changed my career path to work with my passion - IT. I have mainly worked with Java, ReactJs, Javascript and Flutter",
     "image":"profilepic.jpg",
     "bio":"I’m a positive, analytical and curious person originating from the north of Sweden. I love to take on new challenges and learn new things! I have for several years worked as a social worker but have now re-educated myself to be able to work within the IT-industry. I have experience both with backend development in Java and frontend development in Javascript, ReactJs, CSS, HTML and Flutter. I’m a certified Scrum Master (PSM I). I enjoy solving complex problems, and working in teams, whilst having fun along the way. Scroll down to see more about me and things I'm working on or have worked with!",
@@ -34,7 +34,7 @@
         "school":"Academy, a part of Academic Work AB",
         "degree":"Accelerated learning - Java developer",
         "graduated":"2020",
-        "description":"I have completed Academy’s Accelerated Learning Program in Java. Accelerated Learning is a fast way to a new career for ambitious and driven individuals with the right skills to acquire new knowledge. The education method focuses on high-speed practical learning, agile teamwork and continuous feedback dialogue. The education includes around 500 hours of coding and is always based on specific tasks relevant to the professional role. This makes the learning process extremely efficient and therefore I can contribute as junior developer from the first day after training. During the education the focus was mainly Java, but also technologies such as object oriented programming, Spring Framework, SQL Databases, HTML, CSS, Javascript, ReactJs, Scrum, Git, UX, TDD and intro to AWS."
+        "description":"I have completed Academy’s Accelerated Learning Program in Java. Accelerated Learning is a fast way to a new career for ambitious and driven individuals with the right skills to acquire new knowledge. The education method focuses on high-speed practical learning, agile teamwork and continuous feedback dialogue. The education includes around 500 hours of coding and is always based on specific tasks relevant to the professional role. This makes the learning process extremely efficient and therefore I can contribute as developer from the first day after training. During the education the focus was mainly Java, but also technologies such as object oriented programming, Spring Framework, SQL Databases, HTML, CSS, Javascript, ReactJs, Scrum, Git, UX, TDD and intro to AWS."
       },
       {
         "school":"Lund University",
@@ -46,7 +46,7 @@
         "school":"Udemy",
         "degree":"Complete Flutter App Development Bootcamp with Dart",
         "graduated":"2020",
-        "description":"This course was officially created in collaboration with the Google Flutter team. During the course I learnt to code using Dart and build beautiful, fast, native-quality iOS and Android apps. Furthermore I build around 15 apps during the course."
+        "description":"This course was officially created in collaboration with the Google Flutter team. During the course I learnt to code using Dart and build beautiful, fast, native-quality iOS and Android apps."
       }
     ],
     "work":[
