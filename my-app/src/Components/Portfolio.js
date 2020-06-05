@@ -57,7 +57,7 @@ class Portfolio extends Component {
                         <span></span>
                         <span>
                         <h5>Eat well</h5>
-                        <span className="text-style">Eat well is a Flutter app with a backend in Java. This is an ongoing project where I have created an app where you can save your favourite recipes so that when it is time for some dinner you can get some food suggestions! In Java I have used Spring Framework to build an REST API and used JPA to connect to a database to save all the recipes. The fronend part with Flutter is still in the early stages. Click the image to see more and the code!</span>
+                        <span className="text-style">Eat well is a Flutter app with a backend in Java. This is an ongoing project where I have created an app where you can save your favourite recipes so that when it is time for some dinner you can get some food suggestions! In Java I have used Spring Framework to build an REST API and used JPA to connect to a database to save all the recipes. The frontend part with Flutter is still in the early stages. Click the image to see more and the code!</span>
                         </span>
                         <span></span>
                      </span>
