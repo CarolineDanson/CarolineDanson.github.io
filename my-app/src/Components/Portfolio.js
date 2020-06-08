@@ -83,7 +83,7 @@ class Portfolio extends Component {
                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/CarolineDanson/EatWellFrontend">
                                     <div className="columns portfolio-item">
                                        <div className="item-wrap">
-                                          <img className="img-size" alt="ParkHere" src="images/portfolio/EatWellFrontend.png"></img>
+                                          <img className="img-size" alt="Eat well" src="images/portfolio/EatWellFrontend.png"></img>
                                           <div className="overlay">
                                              <div className="portfolio-item-meta"><h5>Eat Well</h5>
                                                 <p>Github Frontend</p></div>
@@ -111,10 +111,39 @@ class Portfolio extends Component {
                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/CarolineDanson/FlutterApps">
                                     <div className="columns portfolio-item">
                                        <div className="item-wrap">
-                                          <img className="img-size" alt="ParkHere" src="images/portfolio/FlutterImg.png"></img>
+                                          <img className="img-size" alt="Flutter" src="images/portfolio/FlutterImg.png"></img>
                                           <div className="overlay">
                                              <div className="portfolio-item-meta"><h5>Flutter apps</h5>
                                                 <p>Flutter apps using Dart</p></div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </a>
+                           </section>
+                           </div>
+                        <div></div>
+                        <div></div>
+                     </div>
+                     {/*KATTIS*/}
+                     <span className="grid-container-first">
+                        <span></span>
+                        <span>
+                        <h5>Kattis</h5>
+                        <span className="text-style">I enjoy solving programming problems from Kattis. Here's my GitHub repo to show some of the problems I have solved so far.</span>
+                        </span>
+                        <span></span>
+                     </span>
+                     <div className="grid-container-one">
+                        <div></div>
+                        <div>
+                           <section id="portfoilo">
+                           <a target="_blank" rel="noopener noreferrer" href="https://github.com/CarolineDanson/Kattis">
+                                    <div className="columns portfolio-item">
+                                       <div className="item-wrap">
+                                          <img className="img-size" alt="Kattis" src="images/portfolio/Kattis1.png"></img>
+                                          <div className="overlay">
+                                             <div className="portfolio-item-meta"><h5>Kattis</h5>
+                                                <p>My solutions to some Kattis programming problems that I have solved.</p></div>
                                           </div>
                                        </div>
                                     </div>
